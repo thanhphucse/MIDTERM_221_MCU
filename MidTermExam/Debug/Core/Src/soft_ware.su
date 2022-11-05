@@ -1,0 +1,4 @@
+soft_ware.c:18:6:setTimer1	16	static
+soft_ware.c:24:6:setTimer2	16	static
+soft_ware.c:30:6:setTimer3	16	static
+soft_ware.c:36:6:timeRun	4	static
