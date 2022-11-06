@@ -12,7 +12,7 @@ int keyReg1[3] = {NORMAL_STATE, NORMAL_STATE, NORMAL_STATE};
 int keyReg2[3] = {NORMAL_STATE, NORMAL_STATE, NORMAL_STATE};
 
 int keyReg3[3] = {NORMAL_STATE, NORMAL_STATE, NORMAL_STATE};// trạng thái ổn định trước đó
-int timerForKeyPress = 200;// nhấn đè thì 3s mới xử lý
+int timerForKeyPress = 300;// nhấn đè thì 3s mới xử lý
 
 int button_RESET_flag = 0;
 int button_INC_flag = 0;
@@ -88,7 +88,7 @@ void getKeyInput()
 					{
 						//TODO
 						button_RESET_flag = 1;
-						timerForKeyPress = 200;
+						timerForKeyPress = 300;
 					}
 				}
 				else
@@ -97,12 +97,9 @@ void getKeyInput()
 						timerForKeyPress--;
 						if(timerForKeyPress == 0)
 						{
-							//if(keyReg2 == PRESSED_STATE)
-							//{
-								//TODO
-								button_RESET_LongPressed_flag = 1;
-							//}
-							timerForKeyPress = 200;
+							//TODO
+							button_RESET_LongPressed_flag = 1;
+							timerForKeyPress = 300;
 						}
 					}
 
@@ -123,7 +120,7 @@ void getKeyInput()
 					{
 						//TODO
 						button_INC_flag = 1;
-						timerForKeyPress = 200;
+						timerForKeyPress = 300;
 					}
 				}
 				else
@@ -132,12 +129,10 @@ void getKeyInput()
 						timerForKeyPress--;
 						if(timerForKeyPress == 0)
 						{
-							//if(keyReg2 == PRESSED_STATE)
-							//{
-								//TODO
-								button_INC_LongPressed_flag = 1;
-							//}
-							timerForKeyPress = 200;
+
+							//TODO
+							button_INC_LongPressed_flag = 1;
+							timerForKeyPress = 300;
 						}
 					}
 
@@ -158,7 +153,7 @@ void getKeyInput()
 					{
 						//TODO
 						button_DEC_flag = 1;
-						timerForKeyPress = 200;
+						timerForKeyPress = 300;
 					}
 				}
 				else
@@ -167,12 +162,9 @@ void getKeyInput()
 						timerForKeyPress--;
 						if(timerForKeyPress == 0)
 						{
-							//if(keyReg2 == PRESSED_STATE)
-							//{
-								//TODO
-								button_DEC_LongPressed_flag = 1;
-							//}
-							timerForKeyPress = 200;
+							//TODO
+							button_DEC_LongPressed_flag = 1;
+							timerForKeyPress = 300;
 						}
 					}
 				}
