@@ -5,7 +5,6 @@
  *      Author: Welcome
  */
 #include <fsm_simple_buttons.h>
-#include "fsm_manual.h"
 #include "global.h"
 #include "main.h"
 #include "button.h"

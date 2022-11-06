@@ -9,7 +9,6 @@ C_SRCS += \
 ../Core/Src/control_led_7SEG.c \
 ../Core/Src/fsm_count_down.c \
 ../Core/Src/fsm_long_press.c \
-../Core/Src/fsm_manual.c \
 ../Core/Src/fsm_simple_buttons.c \
 ../Core/Src/global.c \
 ../Core/Src/main.c \
@@ -25,7 +24,6 @@ OBJS += \
 ./Core/Src/control_led_7SEG.o \
 ./Core/Src/fsm_count_down.o \
 ./Core/Src/fsm_long_press.o \
-./Core/Src/fsm_manual.o \
 ./Core/Src/fsm_simple_buttons.o \
 ./Core/Src/global.o \
 ./Core/Src/main.o \
@@ -41,7 +39,6 @@ C_DEPS += \
 ./Core/Src/control_led_7SEG.d \
 ./Core/Src/fsm_count_down.d \
 ./Core/Src/fsm_long_press.d \
-./Core/Src/fsm_manual.d \
 ./Core/Src/fsm_simple_buttons.d \
 ./Core/Src/global.d \
 ./Core/Src/main.d \

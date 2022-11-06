@@ -25,7 +25,6 @@
 #include "software_timer.h"
 #include "global.h"
 #include "button.h"
-#include "fsm_manual.h"
 #include "control_led_7SEG.h"
 #include "fsm_simple_buttons.h"
 /* USER CODE END Includes */

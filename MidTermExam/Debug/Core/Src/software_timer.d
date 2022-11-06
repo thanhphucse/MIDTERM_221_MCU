@@ -1,6 +1,6 @@
 Core/Src/software_timer.o: ../Core/Src/software_timer.c \
  ../Core/Inc/software_timer.h ../Core/Inc/fsm_simple_buttons.h \
- ../Core/Inc/fsm_manual.h ../Core/Inc/global.h ../Core/Inc/main.h \
+ ../Core/Inc/global.h ../Core/Inc/main.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
@@ -30,8 +30,6 @@ Core/Src/software_timer.o: ../Core/Src/software_timer.c \
 ../Core/Inc/software_timer.h:
 
 ../Core/Inc/fsm_simple_buttons.h:
-
-../Core/Inc/fsm_manual.h:
 
 ../Core/Inc/global.h:
 

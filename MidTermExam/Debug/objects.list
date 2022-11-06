@@ -2,7 +2,6 @@
 "./Core/Src/control_led_7SEG.o"
 "./Core/Src/fsm_count_down.o"
 "./Core/Src/fsm_long_press.o"
-"./Core/Src/fsm_manual.o"
 "./Core/Src/fsm_simple_buttons.o"
 "./Core/Src/global.o"
 "./Core/Src/main.o"
